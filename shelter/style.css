@@ -153,3 +153,48 @@ body {
   cursor: pointer;
   background: var(--color-primary-light);
 }
+
+.about {
+  width: 1280px;
+  height: 588px;
+  background: var(--color-light-xl);
+}
+
+.about-content {
+  display: flex;
+  width: 1200px;
+  height: 408px;
+  margin: 80px auto 100px;
+}
+
+.about-img {
+  width: 300px;
+  height: 408px;
+  margin: 0 120px 0 175px;
+  background: url("./assets/img/about-pets.png");
+  background-size: contain;
+}
+
+.about-text {
+  width: 430px;
+  height: 380px;
+  margin-top: 14px;
+}
+
+.about-text-heading {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-l);
+}
+
+.about-text-description {
+  margin-top: 25px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: var(--color-dark-xl);
+}
