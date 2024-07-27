@@ -181,8 +181,7 @@ body {
   margin-top: 14px;
 }
 
-.about-text-heading,
-.pets-content-heading {
+.content-heading {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 35px;
@@ -212,7 +211,22 @@ body {
   padding-top: 80px;
 }
 
-.pets-content-heading {
+.help {
+  height: 611px;
+  padding-top: 80px;
+  background: var(--color-light-xl);
+}
+
+.help-content {
+  width: 1200px;
+  height: 431px;
+  margin: 0px auto;
+  padding: 0 87px;
+
+  /* border: 2px solid red; */
+}
+
+.heading-center {
   text-align: center;
 }
 
@@ -348,4 +362,113 @@ body {
 .pets-content-btn:hover {
   cursor: pointer;
   background: var(--color-primary-light);
+}
+
+.help-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px 120px;
+  width: 1026px;
+  /* height: 281px; */
+  margin-top: 60px;
+
+  /* border: 2px solid red; */
+}
+
+.help-list-item {
+  /* height: 113px;  */
+
+  /* border: 2px solid red; */
+}
+
+.item-1 {
+  width: 82px;
+}
+
+.item-2 {
+  width: 150px;
+}
+
+.item-3 {
+  width: 60px;
+}
+
+.item-4 {
+  width: 153px;
+}
+
+.item-5 {
+  width: 101px;
+}
+
+.item-6 {
+  width: 89px;
+  margin-left: 84px;
+}
+
+.item-7 {
+  width: 101px;
+}
+
+.item-8 {
+  width: 165px;
+}
+
+.item-9 {
+  width: 143px;
+}
+
+.item-img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 30px;
+
+  /* border: 2px solid blue; */
+}
+
+.item-img-1 {
+  background: no-repeat center url(./assets/img/pet-food.svg);
+}
+
+.item-img-2 {
+  background: no-repeat center url(./assets/img/transportation.svg);
+}
+
+.item-img-3 {
+  background: no-repeat center url(./assets/img/toys.svg);
+}
+
+.item-img-4 {
+  background: no-repeat center url(./assets/img/bowls-and-cups.svg);
+}
+
+.item-img-5 {
+  background: no-repeat center url(./assets/img/shampoos.svg);
+}
+
+.item-img-6 {
+  background: no-repeat center url(./assets/img/vitamins.svg);
+}
+
+.item-img-7 {
+  background: no-repeat center url(./assets/img/medicines.svg);
+}
+
+.item-img-8 {
+  background: no-repeat center url(./assets/img/collars-or-leashes.svg);
+}
+
+.item-img-9 {
+  background: no-repeat center url(./assets/img/sleeping-area.svg);
+}
+
+.item-heading {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--color-dark-l);
+  white-space: nowrap;
 }
