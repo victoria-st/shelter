@@ -181,7 +181,8 @@ body {
   margin-top: 14px;
 }
 
-.about-text-heading {
+.about-text-heading,
+.pets-content-heading {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 35px;
@@ -197,4 +198,154 @@ body {
   font-size: 15px;
   line-height: 160%;
   color: var(--color-dark-xl);
+}
+
+.pets {
+  height: 877px;
+  background: var(--color-light-l);
+}
+
+.pets-content {
+  width: 1200px;
+  height: 697px;
+  margin: 80px auto 100px;
+  padding-top: 80px;
+}
+
+.pets-content-heading {
+  text-align: center;
+}
+
+.pets-content-slider {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 435px;
+  margin-top: 60px;
+}
+
+.pets-slider-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid var(--color-primary);
+}
+
+.btn-left {
+  margin-right: 53px;
+}
+
+.btn-arrow {
+  width: 14px;
+  height: 6px;
+  background-repeat: no-repeat;
+}
+
+.left-arrow {
+  background: url(./assets/img/Arrow_left.svg);
+}
+
+.pets-slider-btn:hover {
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-primary-light);
+}
+
+.pets-slider-card {
+  border-radius: 9px;
+  width: 270px;
+  height: 435px;
+  background: var(--color-light-s);
+}
+
+.slider-card-img {
+  border-radius: 9px 9px 0 0;
+  width: 270px;
+  height: 270px;
+  background-size: contain;
+}
+
+.card-img-1 {
+  background: url("./assets/img/pets-katrine.png");
+}
+
+.slider-card-name {
+  margin: 30px auto;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--color-dark-l);
+}
+
+.slider-card-btn {
+  width: 187px;
+  height: 52px;
+  margin: 0px auto;
+  padding: 13px 0px;
+  border: 2px solid var(--color-primary);
+  border-radius: 100px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+}
+
+.pets-slider-card:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+  background: var(--color-light-xl);
+}
+
+.pets-slider-card:hover .slider-card-btn {
+  border: none;
+  background: var(--color-primary-light);
+}
+
+.card-img-2 {
+  background: url("./assets/img/pets-jennifer.png");
+}
+
+.card-img-3 {
+  background: url("./assets/img/pets-woody.png");
+}
+
+.card-central {
+  margin: 0 90px;
+}
+
+.btn-right {
+  margin-left: 53px;
+}
+
+.right-arrow {
+  background: url(./assets/img/arrow_right.svg);
+}
+
+.pets-content-btn {
+  width: 261px;
+  height: 52px;
+  margin: 60px auto 100px;
+  padding: 15px 0px;
+  border-radius: 100px;
+  background: var(--color-primary);
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+}
+
+.pets-content-btn:hover {
+  cursor: pointer;
+  background: var(--color-primary-light);
 }
