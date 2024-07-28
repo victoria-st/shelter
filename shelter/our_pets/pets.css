@@ -87,3 +87,168 @@
   cursor: default;
   border-bottom: 3px solid var(--color-primary);
 }
+
+.pets {
+  height: 1342px;
+  background: var(--color-light-l);
+  padding: 80px 0 100px;
+}
+
+.pets-content {
+  width: 1200px;
+  height: 1162px;
+  margin: 0 auto;
+}
+
+.content-heading {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-l);
+}
+
+.heading-center {
+  text-align: center;
+}
+
+.pets-cards {
+  display: flex;
+  gap: 30px 40px;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 930px;
+  margin-top: 45px;
+  padding: 15px 0;
+}
+
+.card-item {
+  border-radius: 9px;
+  width: 270px;
+  height: 435px;
+  background: var(--color-light-s);
+}
+
+.img-card {
+  border-radius: 9px 9px 0 0;
+  width: 270px;
+  height: 270px;
+  background-size: contain;
+}
+
+.card-img-1 {
+  background: url("../assets/img/pets-katrine.png");
+}
+
+.card-name {
+  margin: 30px auto;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--color-dark-l);
+}
+
+.card-btn {
+  width: 187px;
+  height: 52px;
+  margin: 0px auto;
+  padding: 13px 0px;
+  border: 2px solid var(--color-primary);
+  border-radius: 100px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+}
+
+.card-item:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+  background: var(--color-light-xl);
+}
+
+.card-item:hover .card-btn {
+  border: none;
+  background: var(--color-primary-light);
+}
+
+.card-img-2 {
+  background: url("../assets/img/pets-jennifer.png");
+}
+
+.card-img-3 {
+  background: url("../assets/img/pets-woody.png");
+}
+
+.card-img-4 {
+  background: url("../assets/img/pets-sophia.png");
+}
+
+.card-img-5 {
+  background: url("../assets/img/pets-timmy.png");
+}
+
+.card-img-6 {
+  background: url("../assets/img/pets-charly.png");
+}
+
+.card-img-7 {
+  background: url("../assets/img/pets-scarlet.png");
+}
+
+.card-img-8 {
+  background: url("../assets/img/pets-freddie.png");
+}
+
+.pagination {
+  display: flex;
+  column-gap: 20px;
+  width: 340px;
+  height: 52px;
+  margin: 45px auto;
+}
+
+.btn-view {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  padding: 13px 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.btn-inactive {
+  border: 2px solid var(--color-dark-s);
+  color: var(--color-dark-s);
+}
+
+.btn-inactive:hover,
+.btn-active:hover {
+  cursor: default;
+}
+
+.btn-style {
+  border: 2px solid var(--color-primary);
+  color: var(--color-dark-3xl);
+}
+
+.btn-active {
+  background: var(--color-primary);
+}
+
+.btn-style:hover:not(.btn-active) {
+  cursor: pointer;
+  border: 2px solid var(--color-primary-light);
+  background-color: var(--color-primary-light);
+}
