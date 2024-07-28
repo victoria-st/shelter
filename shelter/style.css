@@ -533,3 +533,79 @@ body {
   line-height: 150%;
   color: var(--color-dark-m);
 }
+
+.footer {
+  height: 350px;
+  padding-top: 40px;
+  background: url("./assets/img/noise_transparent.png"),
+    radial-gradient(
+      549.89% 73.65% at 5.73% 50%,
+      rgb(81, 61, 47) 0%,
+      rgb(26, 26, 28) 100%
+    ),
+    var(--start-screen-gradient-background);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  margin-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-light-xl);
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.mail-item {
+  margin: 40px 0;
+}
+
+.mail-img {
+  width: 40px;
+  height: 26px;
+  background: url(./assets/img/mail.svg);
+}
+
+.footer-item-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+}
+
+.phone-img {
+  width: 40px;
+  height: 32px;
+  background: url(./assets/img/phone.svg);
+}
+
+.boston-item {
+  margin: 34px 0 32px;
+}
+
+.pin-img {
+  width: 22px;
+  height: 32px;
+  background: url(./assets/img/pin.svg);
+}
+
+.footer-image {
+  width: 300px;
+  height: 310px;
+  background: url("./assets/img/footer-puppy.png");
+}
