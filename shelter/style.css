@@ -26,11 +26,7 @@
   box-sizing: border-box;
 }
 
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  color: var(--color-dark-s);
+a:any-link {
   text-decoration: none;
 }
 a:hover {
@@ -87,7 +83,7 @@ body {
   list-style-type: none;
 }
 
-.nav-item {
+nav-item {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 15px;
@@ -95,12 +91,23 @@ body {
   color: var(--color-dark-s);
 }
 
-a.nav-item:hover {
+nav-item:hover:not(.item-active) {
   cursor: pointer;
   color: var(--color-light-s);
 }
 
+a.nav-item:any-link {
+  color: var(--color-dark-s);
+}
+a.nav-item:hover {
+  color: var(--color-light-s);
+}
+a.nav-item:active {
+  color: var(--color-dark-s);
+}
+
 .item-active {
+  cursor: default;
   border-bottom: 3px solid var(--color-primary);
   color: var(--color-light-s);
 }
