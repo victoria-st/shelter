@@ -184,7 +184,7 @@ a:active {
 }
 
 .card-item:hover .card-btn {
-  border: none;
+  border: 2px solid var(--color-primary-light);
   background: var(--color-primary-light);
 }
 
