@@ -20,6 +20,10 @@
   --third-family: "Inter", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,6 +90,7 @@ a:active {
   font-size: 15px;
   line-height: 160%;
   color: var(--color-dark-l);
+  transition: color 0.5s;
 }
 
 .nav-item:hover:not(.item-active) {
@@ -138,6 +143,7 @@ a:active {
   width: 270px;
   height: 435px;
   background: var(--color-light-s);
+  transition: box-shadow 0.5s, background 0.5s;
 }
 
 .img-card {
@@ -175,6 +181,7 @@ a:active {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: var(--color-dark-3xl);
+  transition: border 0.5s, background 0.5s;
 }
 
 .card-item:hover {
@@ -251,6 +258,7 @@ a:active {
 .btn-style {
   border: 2px solid var(--color-primary);
   color: var(--color-dark-3xl);
+  transition: border 0.5s, background-color 0.5s;
 }
 
 .btn-active {
