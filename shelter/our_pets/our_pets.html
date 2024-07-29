@@ -10,18 +10,22 @@
   <body>
     <header class="header">
       <div class="header-content">
-        <div>
-          <h1 class="logo-title">Cozy House</h1>
-          <p class="logo-subtitle">Shelter for pets in Boston</p>
-        </div>
+        <a href="../index.html"
+          ><div>
+            <h1 class="logo-title">Cozy House</h1>
+            <p class="logo-subtitle">Shelter for pets in Boston</p>
+          </div></a
+        >
         <nav class="nav">
           <ul class="nav-list">
             <li>
               <a class="nav-item" href="../index.html">About the shelter</a>
             </li>
             <li class="nav-item item-active">Our pets</li>
-            <li><a class="nav-item" href="">Help the shelter</a></li>
-            <li><a class="nav-item" href="">Contacts</a></li>
+            <li>
+              <a class="nav-item" href="../index.html#help">Help the shelter</a>
+            </li>
+            <li><a class="nav-item" href="#footer">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -83,38 +87,52 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer-content">
         <div class="contacts">
           <div class="footer-heading">
             For questions <br />
             and suggestions
           </div>
-          <div class="footer-item mail-item">
-            <div class="mail-img"></div>
-            <div class="footer-item-text">email@shelter.com</div>
-          </div>
-          <div class="footer-item">
-            <div class="phone-img"></div>
-            <div class="footer-item-text">+13 674 567 75 54</div>
-          </div>
+          <a href="mailto:email@shelter.com"
+            ><div class="footer-item mail-item">
+              <div class="mail-img"></div>
+              <div class="footer-item-text">email@shelter.com</div>
+            </div></a
+          >
+          <a href="tel:+13 674 567 75 54"
+            ><div class="footer-item">
+              <div class="phone-img"></div>
+              <div class="footer-item-text">+13 674 567 75 54</div>
+            </div></a
+          >
         </div>
         <div class="locations">
           <div class="footer-heading">
             We are waiting <br />
             for your visit
           </div>
-          <div class="footer-item boston-item">
-            <div class="pin-img"></div>
-            <div class="footer-item-text">
-              1 Central Street, Boston <br />
-              (entrance from the store)
-            </div>
-          </div>
-          <div class="footer-item">
-            <div class="pin-img"></div>
-            <div class="footer-item-text">18 South Park, London</div>
-          </div>
+          <a
+            href="https://www.google.com/maps/place/Central+Park+and+Skatepark/@52.981946,-0.0260374,17z/data=!3m1!4b1!4m6!3m5!1s0x48780a6ab36ed121:0xd03704301c81eda8!8m2!3d52.9819428!4d-0.0234625!16s%2Fg%2F1tv3n5w0?entry=ttu"
+            target="_blank"
+          >
+            <div class="footer-item boston-item">
+              <div class="pin-img"></div>
+              <div class="footer-item-text">
+                1 Central Street, Boston <br />
+                (entrance from the store)
+              </div>
+            </div></a
+          >
+          <a
+            href="https://www.google.com/maps/place/South+Park+Gardens/@51.4222831,-0.2010423,17z/data=!3m1!4b1!4m6!3m5!1s0x487608b0444135a5:0x26ad24d16140d887!8m2!3d51.4222798!4d-0.1984674!16s%2Fg%2F1tfptrf5?entry=ttu"
+            target="_blank"
+          >
+            <div class="footer-item">
+              <div class="pin-img"></div>
+              <div class="footer-item-text">18 South Park, London</div>
+            </div></a
+          >
         </div>
         <div class="footer-image"></div>
       </div>
