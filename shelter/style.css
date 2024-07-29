@@ -24,6 +24,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a:any-link {
@@ -36,14 +37,9 @@ a:active {
   text-decoration: none;
 }
 
-main {
-  scroll-behavior: smooth;
-}
-
 body {
   position: relative;
   margin: auto;
-  scroll-behavior: smooth;
 }
 
 .header {
