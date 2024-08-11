@@ -111,6 +111,81 @@
   .pets-content-btn {
     margin: 42px auto 0;
   }
+
+  .help {
+    padding: 42px 0;
+  }
+
+  .help-content {
+    width: 290px;
+  }
+
+  .help-list {
+    justify-content: space-between;
+    row-gap: 30px;
+    width: 100%;
+    margin-top: 42px;
+  }
+
+  .item {
+    width: 130px;
+  }
+
+  .item-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+  }
+
+  .item-img-1 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/pet-food.svg);
+  }
+
+  .item-img-2 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/transportation.svg);
+  }
+
+  .item-img-3 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/toys.svg);
+  }
+
+  .item-img-4 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/bowls-and-cups.svg);
+  }
+
+  .item-img-5 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/shampoos.svg);
+  }
+
+  .item-img-6 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/vitamins.svg);
+  }
+
+  .item-img-7 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/medicines.svg);
+  }
+
+  .item-img-8 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/collars-or-leashes.svg);
+  }
+
+  .item-img-9 {
+    background: no-repeat center
+      url(./assets/icons/help_items/small_screen/sleeping-area.svg);
+  }
+
+  .item-heading {
+    font-size: 15px;
+    line-height: 110%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -210,6 +285,83 @@
   .pets-content-btn {
     margin: 60px auto 0;
   }
+
+  .help {
+    padding: 80px 0 100px;
+  }
+
+  .help-content {
+    width: 630px;
+  }
+
+  .help-list {
+    justify-content: space-between;
+    row-gap: 55px;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .item {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 30px;
+  }
+
+  .item-img-1 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/pet-food.svg);
+  }
+
+  .item-img-2 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/transportation.svg);
+  }
+
+  .item-img-3 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/toys.svg);
+  }
+
+  .item-img-4 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/bowls-and-cups.svg);
+  }
+
+  .item-img-5 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/shampoos.svg);
+  }
+
+  .item-img-6 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/vitamins.svg);
+  }
+
+  .item-img-7 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/medicines.svg);
+  }
+
+  .item-img-8 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/collars-or-leashes.svg);
+  }
+
+  .item-img-9 {
+    background: no-repeat center
+      url(./assets/icons/help_items/desktop_tablet/sleeping-area.svg);
+  }
+
+  .item-heading {
+    font-size: 20px;
+    line-height: 115%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -297,6 +449,58 @@
 
   .pets-content-btn {
     margin: 60px auto 100px;
+  }
+
+  .help {
+    padding: 80px 0 100px;
+  }
+
+  .help-content {
+    width: 1200px;
+    padding: 0 87px;
+  }
+
+  .help-list {
+    gap: 55px 120px;
+    width: 1026px;
+    margin-top: 60px;
+  }
+
+  .item-1 {
+    width: 82px;
+  }
+
+  .item-2 {
+    width: 150px;
+  }
+
+  .item-3 {
+    width: 60px;
+  }
+
+  .item-4 {
+    width: 153px;
+  }
+
+  .item-5 {
+    width: 101px;
+  }
+
+  .item-6 {
+    width: 89px;
+    margin-left: 84px;
+  }
+
+  .item-7 {
+    width: 101px;
+  }
+
+  .item-8 {
+    width: 165px;
+  }
+
+  .item-9 {
+    width: 143px;
   }
 }
 
@@ -516,7 +720,7 @@ a.nav-item:active {
 }
 
 .left-arrow {
-  background: url(./assets/img/arrow_left.svg);
+  background: url(./assets/icons/arrow_left.svg);
 }
 
 .pets-slider-btn:hover {
@@ -591,7 +795,7 @@ a.nav-item:active {
 }
 
 .right-arrow {
-  background: url(./assets/img/arrow_right.svg);
+  background: url(./assets/icons/arrow_right.svg);
 }
 
 .pets-content-btn {
@@ -616,110 +820,21 @@ a.nav-item:active {
 }
 
 .help {
-  height: 611px;
-  padding-top: 80px;
   background: var(--color-light-xl);
 }
 
 .help-content {
-  width: 1200px;
-  height: 431px;
   margin: 0px auto;
-  padding: 0 87px;
 }
 
 .help-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 55px 120px;
-  width: 1026px;
-  margin-top: 60px;
-}
-
-.item-1 {
-  width: 82px;
-}
-
-.item-2 {
-  width: 150px;
-}
-
-.item-3 {
-  width: 60px;
-}
-
-.item-4 {
-  width: 153px;
-}
-
-.item-5 {
-  width: 101px;
-}
-
-.item-6 {
-  width: 89px;
-  margin-left: 84px;
-}
-
-.item-7 {
-  width: 101px;
-}
-
-.item-8 {
-  width: 165px;
-}
-
-.item-9 {
-  width: 143px;
-}
-
-.item-img {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 30px;
-}
-
-.item-img-1 {
-  background: no-repeat center url(./assets/img/pet-food.svg);
-}
-
-.item-img-2 {
-  background: no-repeat center url(./assets/img/transportation.svg);
-}
-
-.item-img-3 {
-  background: no-repeat center url(./assets/img/toys.svg);
-}
-
-.item-img-4 {
-  background: no-repeat center url(./assets/img/bowls-and-cups.svg);
-}
-
-.item-img-5 {
-  background: no-repeat center url(./assets/img/shampoos.svg);
-}
-
-.item-img-6 {
-  background: no-repeat center url(./assets/img/vitamins.svg);
-}
-
-.item-img-7 {
-  background: no-repeat center url(./assets/img/medicines.svg);
-}
-
-.item-img-8 {
-  background: no-repeat center url(./assets/img/collars-or-leashes.svg);
-}
-
-.item-img-9 {
-  background: no-repeat center url(./assets/img/sleeping-area.svg);
 }
 
 .item-heading {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 20px;
-  line-height: 115%;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--color-dark-l);
@@ -778,7 +893,7 @@ a.nav-item:active {
 .credit-card-img {
   width: 30px;
   height: 23px;
-  background: url(./assets/img/credit-card.svg);
+  background: url(./assets/icons/credit-card.svg);
 }
 
 .credit-card-number {
@@ -843,7 +958,7 @@ a.nav-item:active {
 .mail-img {
   width: 40px;
   height: 26px;
-  background: url(./assets/img/mail.svg);
+  background: url(./assets/icons/mail.svg);
 }
 
 .footer-item-text {
@@ -858,7 +973,7 @@ a.nav-item:active {
 .phone-img {
   width: 40px;
   height: 32px;
-  background: url(./assets/img/phone.svg);
+  background: url(./assets/icons/phone.svg);
 }
 
 .boston-item {
@@ -868,7 +983,7 @@ a.nav-item:active {
 .pin-img {
   width: 22px;
   height: 32px;
-  background: url(./assets/img/pin.svg);
+  background: url(./assets/icons/pin.svg);
 }
 
 .footer-image {
