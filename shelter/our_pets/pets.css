@@ -25,8 +25,32 @@
     margin: 0 20px;
   }
 
-  .nav {
+  .nav,
+  .small-screen {
     display: none;
+  }
+
+  .pets {
+    padding: 42px 0;
+  }
+
+  .pets-content {
+    width: 300px;
+  }
+
+  .content-heading {
+    font-size: 25px;
+  }
+
+  .pets-cards {
+    width: 270px;
+    margin-top: 42px;
+  }
+
+  .pagination {
+    column-gap: 10px;
+    width: 300px;
+    margin: 42px auto 0;
   }
 }
 
@@ -34,12 +58,63 @@
   .header-content {
     margin: 0 30px;
   }
+
+  .pets {
+    padding: 80px 0 70px;
+  }
+
+  .pets-content {
+    width: 708px;
+  }
+
+  .content-heading {
+    font-size: 35px;
+  }
+
+  .pets-cards {
+    width: 580px;
+    margin-top: 30px;
+  }
+
+  .medium-screen {
+    display: none;
+  }
+
+  .pagination {
+    column-gap: 20px;
+    width: 340px;
+    margin: 40px auto 6px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .header-content {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .pets {
+    padding: 80px 0 100px;
+  }
+
+  .pets-content {
+    width: 1200px;
+  }
+
+  .content-heading {
+    font-size: 35px;
+  }
+
+  .pets-cards {
+    width: 1200px;
+    margin-top: 45px;
+    padding: 15px 0;
+  }
+
+  .pagination {
+    column-gap: 20px;
+    width: 340px;
+    margin: 45px auto;
   }
 }
 
@@ -122,21 +197,17 @@ a:active {
 }
 
 .pets {
-  height: 1342px;
   background: var(--color-light-l);
-  padding: 80px 0 100px;
 }
 
 .pets-content {
-  width: 1200px;
-  height: 1162px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .content-heading {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 35px;
   line-height: 130%;
   letter-spacing: 0.06em;
   color: var(--color-dark-l);
@@ -150,10 +221,8 @@ a:active {
   display: flex;
   gap: 30px 40px;
   flex-wrap: wrap;
-  width: 1200px;
-  height: 930px;
-  margin-top: 45px;
-  padding: 15px 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card-item {
@@ -243,10 +312,7 @@ a:active {
 
 .pagination {
   display: flex;
-  column-gap: 20px;
-  width: 340px;
   height: 52px;
-  margin: 45px auto;
 }
 
 .btn-view {
