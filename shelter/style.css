@@ -31,6 +31,22 @@
     display: none;
   }
 
+  .burger {
+    align-self: center;
+    width: 30px;
+    height: 22px;
+  }
+
+  .line {
+    border: 1px solid var(--color-primary);
+    width: 30px;
+    height: 0px;
+  }
+
+  .central-line {
+    margin: 8px 0;
+  }
+
   .start-container {
     flex-direction: column;
     width: 93.75%;
@@ -415,6 +431,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
   .item-img {
     width: 60px;
     height: 60px;

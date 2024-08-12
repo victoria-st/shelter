@@ -30,6 +30,22 @@
     display: none;
   }
 
+  .burger {
+    align-self: center;
+    width: 30px;
+    height: 22px;
+  }
+
+  .line {
+    border: 1px solid #000;
+    width: 30px;
+    height: 0px;
+  }
+
+  .central-line {
+    margin: 8px 0;
+  }
+
   .pets {
     padding: 42px 0;
   }
@@ -135,6 +151,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
   .footer-heading {
     font-size: 35px;
   }
