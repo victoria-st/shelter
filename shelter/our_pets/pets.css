@@ -20,6 +20,29 @@
   --third-family: "Inter", sans-serif;
 }
 
+@media screen and (max-width: 767px) {
+  .header-content {
+    margin: 0 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header-content {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,9 +69,7 @@ a:active {
 .header-content {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
   height: 60px;
-  margin: 0 auto;
 }
 
 .logo-title {
