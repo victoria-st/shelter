@@ -67,10 +67,6 @@
     overflow: hidden;
   }
 
-  .hidden {
-    visibility: hidden;
-  }
-
   .mobile-menu-content {
     display: flex;
     width: 320px;
@@ -772,6 +768,10 @@
 
 img {
   display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 a:any-link {
