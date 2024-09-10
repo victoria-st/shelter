@@ -21,6 +21,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .fixed {
+    position: fixed;
+  }
+
   .header {
     width: 87.5%;
   }
@@ -39,6 +43,10 @@
     width: 30px;
     height: 22px;
     transition: transform 0.5s;
+  }
+
+  .burger:hover {
+    cursor: pointer;
   }
 
   .burger-transform {

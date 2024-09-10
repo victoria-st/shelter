@@ -1,6 +1,7 @@
 const BURGER = document.querySelector(".burger");
 const MOBILE_MENU_BLACKOUT = document.querySelector(".mobile-menu");
 const MOBILE_MENU = document.querySelector(".mobile-menu-content");
+const BODY = document.querySelector("body");
 
 const openMobileMenu = () => {
   console.log("burger clicked");
@@ -8,6 +9,7 @@ const openMobileMenu = () => {
   MOBILE_MENU.classList.add("mobile-menu-open");
   // MOBILE_MENU.classList.remove("mobile-menu-close");
   BURGER.classList.add("burger-transform");
+  BODY.classList.add("fixed");
 };
 
 const closeMobileMenu = () => {
@@ -16,6 +18,7 @@ const closeMobileMenu = () => {
   MOBILE_MENU.classList.add("mobile-menu-close");
   // MOBILE_MENU.classList.remove("mobile-menu-open");
   BURGER.classList.remove("burger-transform");
+  BODY.classList.remove("fixed");
 };
 
 const openCloseMobileMenu = () => {
@@ -36,3 +39,5 @@ MOBILE_MENU.addEventListener("animationend", () => {
     MOBILE_MENU_BLACKOUT.classList.add("hidden");
   }
 });
+
+MOBILE_MENU_BLACKOUT.addEventListener("click", closeMobileMenu);
